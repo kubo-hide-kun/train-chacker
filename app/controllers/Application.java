@@ -1,16 +1,16 @@
 package controllers;
 
-import play.*;
-import play.mvc.*;
-
-import java.util.*;
-
-import models.*;
+import play.mvc.Controller;
 
 public class Application extends Controller {
 
     public static void index() {
         render();
+    }
+
+    public static void doLogin(String id, String password) {
+    	System.out.println(id + " " + password);
+    	Security.authenticate(id, password);
     }
 
 }

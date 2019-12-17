@@ -9,7 +9,7 @@ public class User extends Model {
 
 	public String id;
 	public String address;
-	private String password;
+	public String password;
 
 	public User(String id, String address, String password) {
 		this.id = id;
