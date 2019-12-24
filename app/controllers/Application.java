@@ -8,9 +8,9 @@ public class Application extends Controller {
         render();
     }
 
-    public static void doLogin(String id, String password) {
-    	System.out.println(id + " " + password);
-    	Security.authenticate(id, password);
+    public static void doLogin(String address, String password) {
+    	System.out.println(address + " " + password);
+    	Security.authenticate(address, password);
     }
 
 }
