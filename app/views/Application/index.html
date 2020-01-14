@@ -1,11 +1,19 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-<h1>Train - Checker</h1>
-<p>discripriondiscripriondiscripriondiscriprion</p>
+<div class="signin-page">
+  <h1 class="title">Train - Checker</h1>
+  <p class="discription-large">discripriondiscripriondiscripriondiscriprion</p>
 
-<form action="@{Application.doLogin(address, password)}" method="GET">
-  <input type="email" name="address" />
-  <input type="password" name="password" />
-  <input type="submit" value="サインイン" />
-</form>
+  <form class="signin-form" action="@{Application.doLogin(address, password)}" method="GET">
+    <div>
+      メールアドレス<br>
+      <input class="signin-input" type="email" name="address" />
+    </div>
+    <div>
+      パスワード<br>
+      <input class="signin-input"type="password" name="password" />
+    </div>
+    <input class="signin-button"type="submit" value="サインイン" />
+  </form>
+</div>
