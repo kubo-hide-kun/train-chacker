@@ -1,3 +1,21 @@
+User(alice):
+    email:      alice@gmail.com
+    password:   himitsut
+
 User(bob):
-    email: bob@gmail.com
-    password: secret
+    email:      bob@gmail.com
+    password:   secret
+    
+UsageStatus(1):
+    user:       alice@gmail.com
+    train:      日田彦山線
+    
+    
+UsageStatus(2):
+    user:       bob@gmail.com
+    train:      日田彦山線
+    
+    
+UsageStatus(3):
+    user:       bob@gmail.com
+    train:      鹿児島本線

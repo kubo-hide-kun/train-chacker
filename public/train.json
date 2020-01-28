@@ -1,0 +1,80 @@
+[
+	{
+		"name": "八高線",
+		"company": "JR東日本",
+		"lastupdate_gmt": 1579586941,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "水郡線",
+		"company": "JR東日本",
+		"lastupdate_gmt": 1579586941,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "吾妻線",
+		"company": "JR東日本",
+		"lastupdate_gmt": 1579586941,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "京浜東北線",
+		"company": "JR東日本",
+		"lastupdate_gmt": 1579586941,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "常磐線",
+		"company": "JR東日本",
+		"lastupdate_gmt": 1579586941,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "琵琶湖線",
+		"company": "JR西日本",
+		"lastupdate_gmt": 1579586709,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "JR京都線",
+		"company": "JR西日本",
+		"lastupdate_gmt": 1579586709,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "リアス線",
+		"company": "三陸鉄道",
+		"lastupdate_gmt": 1579586888,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "大糸線",
+		"company": "JR西日本",
+		"lastupdate_gmt": 1579586709,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "根室本線",
+		"company": "JR北海道",
+		"lastupdate_gmt": 1579586704,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "別所線",
+		"company": "上田電鉄",
+		"lastupdate_gmt": 1579586471,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "阿武隈急行線",
+		"company": "阿武隈急行",
+		"lastupdate_gmt": 1579586425,
+		"source": "鉄道com RSS"
+	},
+	{
+		"name": "会津線",
+		"company": "会津鉄道",
+		"lastupdate_gmt": 1579586413,
+		"source": "鉄道com RSS"
+	}
+]

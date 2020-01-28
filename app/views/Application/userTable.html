@@ -1,0 +1,44 @@
+#{extends 'main.html' /}
+#{set title:'Table' /}
+
+
+<div class="main">
+	<h1>組織A</h1>
+	<h2>参加人数: ${users.size()}</h2>
+	<button class="admin_btn">グループの管理</button>
+	<ul>
+		<li>
+			<div class="title_li">
+				<ul class="user_ul">
+					<li class="inline_block">
+						<b>ユーザーネーム</b>
+					</li>
+					<li class="inline_block">
+						<b>利用している鉄道の運行状況</b>
+					</li>
+				</ul>
+			</div>
+		</li>
+		#{list items:users, as: 'user'}
+			<li>
+				<div class="user_li">
+					<ul class="user_ul">
+						<li class="inline_block">
+							<a href="#">address: ${user.email}</a>
+						</li>
+						#{list items:usageStatuses, as: 'usageStatus'}
+							#{if usageStatus.user == user.email}
+								#{if trains.contains(usageStatus.train)}
+									<li class="error_block">${usageStatus.train}</li>
+								#{/if}
+								#{else}
+									<li class="safe_block">${usageStatus.train}</li>
+								#{/else}
+							#{/if}
+						#{/list}
+					</ul>
+				</div>
+			</li>
+		#{/list}
+	</ul>
+</div>

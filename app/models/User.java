@@ -7,11 +7,11 @@ import play.db.jpa.Model;
 @Entity
 public class User extends Model {
 
-	public String address;
+	public String email;
 	public String password;
 
-	public User(String address, String password) {
-		this.address = address;
+	public User(String email, String password) {
+		this.email = email;
 		this.password = password;
 	}
 

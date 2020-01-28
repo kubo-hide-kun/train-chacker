@@ -46,3 +46,83 @@
     color: white;
     font-weight: bold;
 }
+
+.inline_block {
+    display: inline-block;      /* インラインブロック要素にする */
+    padding:  20px;             /* 余白指定 */
+    height: 100px;              /* 高さ指定 */
+    width: 900px;
+    text-align: center;
+	font-size: 4rem;
+
+}
+
+.safe_block {
+    display: inline-block;      /* インラインブロック要素にする */
+    color: #063;
+    background-color:  #84BB79;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 100px;              /* 高さ指定 */
+    text-align: center;
+}
+
+.error_block {
+    display: inline-block;      /* インラインブロック要素にする */
+    color: #c00;
+    background-color:  #FF9900;    /* 背景色指定 */
+    padding:  20px;             /* 余白指定 */
+    height: 100px;              /* 高さ指定 */
+
+}
+
+li {
+	list-style: none;
+}
+
+h1 {
+	width: 100%;
+	color: #555;
+	font-size: 8rem;
+    padding:  60px;
+	border-bottom: 2px solid #777;
+}
+
+h2 {
+    display: inline-block;      /* インラインブロック要素にする */
+	color: #555;
+	font-size: 4rem;
+    padding:  60px;
+}
+
+.user_li {
+	border: solid 2px #777;
+	padding: 24px;
+	overflow-x: scroll;
+}
+
+.title_li {
+	border: solid 2px #777;
+	padding: 24px;
+}
+
+.user_ul {
+	white-space:nowrap;
+}
+
+.main {
+	margin: 0 10%;
+}
+
+.admin_btn {
+    display: inline-block;      /* インラインブロック要素にする */
+	position: absolute;
+	top: 500px;
+	font-size: 4rem;
+	right: 10%;
+    margin:  60px;
+    padding: 60px;
+    font-size: 16px;
+    background-color: #F90;
+    color: white;
+    font-weight: bold;
+}
